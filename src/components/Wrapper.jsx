@@ -1,7 +1,3 @@
-
-
-
-
 const Wrapper = ({children}) => {
 
   return (
