@@ -1,19 +1,20 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage } from "./pages";
-import { Header, Wrapper } from "./components";
+import { ContactPage, HomePage, ProjectPage, ResumePage } from "./pages";
+import { Header, Wrapper, Footer } from "./components";
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Wrapper>
-        <Header>
-          <div>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-            </Routes>
-          </div>
-        </Header>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/projects" element={<ProjectPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+        </Routes>
       </Wrapper>
+      <Footer />
     </BrowserRouter>
   );
 }
