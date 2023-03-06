@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ContactPage, HomePage, ProjectPage, ResumePage } from "./pages";
 import { Header, Wrapper, Footer } from "./components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

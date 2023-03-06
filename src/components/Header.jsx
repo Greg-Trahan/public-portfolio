@@ -4,18 +4,18 @@ const Header = () => {
     <header>
       <nav style ={{position: "fixed", top:"0", width: "100%"}}>
         <div style={{background: "#316bad"}}>
-          <ul style={{"list-style-type":"none", display: "flex", margin:"0px", padding:"5px"}}>
+          <ul style={{listStyleType:"none", display: "flex", margin:"0px", padding:"5px"}}>
             <li className="nav-item">
-              <a className="nav-link active"  href="/" >Home</a>
+              <a className="nav-link active"  href="/" style={{textDecoration: "none", color: "#cccccc", fontSize: "1.2em", paddingLeft: "2em"}}>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/projects">My Projects</a>
+              <a className="nav-link" href="/projects" style={{textDecoration: "none", color: "#cccccc", fontSize: "1.2em", paddingLeft: "2em"}}>My Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact Me</a>
+              <a className="nav-link" href="/contact" style={{textDecoration: "none", color: "#cccccc", fontSize: "1.2em", paddingLeft: "2em"}}>Contact Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/resume">Resume</a>
+              <a className="nav-link" href="/resume" style={{textDecoration: "none", color: "#cccccc", fontSize: "1.2em", paddingLeft: "2em"}}>Resume</a>
             </li>
           </ul>
         </div>
@@ -23,6 +23,5 @@ const Header = () => {
     </header>
   )
 }
-
 
 export default Header

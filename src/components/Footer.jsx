@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src={gitHub} className="github-logo" style={{height:"2em", width: "2em"}} alt="github-logo" />
               </a>
             </li>
-            <li className="nav-item" style={{justifyContent:"center"}}>
+            <li className="nav-item" style={{justifyContent:"center", paddingLeft:"1em"}}>
               <a href="https://www.linkedin.com/in/greg-trahan-1489azx56/" >
                 <img src={linkedIn} className="linkedin-logo" style={{height:"2em", width: "2em"}} alt="linkedin-logo" />
               </a>
